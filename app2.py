@@ -49,7 +49,8 @@ def main():
 
 	st.title("Detector de Face .")
 	st.subheader("App que identifica e conta faces em imagens \n - By Uender Carlos")
-	image_file = st.file_uploader("Upload your image",type=['jpg','png','jpeg'])
+	
+	image_file = st.file_uploader("Envie uma foto com uma ou varias pessoas",type=['jpg','png','jpeg'])
 
 	if image_file is not None:
 
