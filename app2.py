@@ -47,8 +47,8 @@ def draw_image_with_boxes(filename, result_list):
 def main():
 
 
-	st.title("Detector de Face .")
-	st.subheader("App que identifica e conta faces em imagens \n - By Uender Carlos")
+	st.title("Detector de rostos")
+	st.subheader("App que identifica e conta rostos em imagens \n - By Uender Carlos")
 	
 	image_file = st.file_uploader("Envie uma foto com uma ou varias pessoas",type=['jpg','png','jpeg'])
 
