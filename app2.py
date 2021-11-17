@@ -62,7 +62,7 @@ def main():
 
 
 
-	if st.button('predict'):
+	if st.button('Realizar predição'):
 
 		# load image from file
 		#pixels = pyplot.imread(our_image)
